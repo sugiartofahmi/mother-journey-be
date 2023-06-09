@@ -1,40 +1,45 @@
-
 # Express Mongodb JWT
 
-  Learn to create authentication with express js
+Learn to create authentication with express js
 
 ## Installation
 
-### Clone 
+### Clone
+
 ```bash
   git clone https://github.com/sugiartofahmi/express-mongodb-jwt
 ```
-### Install 
+
+### Install
+
 ```bash
   yarn or npm install
 ```
-### Development 
+
+### Development
+
 ```bash
   yarn or npm run dev
 ```
+
 ## Setup
 
-- ENV 
+- ENV
 
-  1. rename .env-example to .env
-  2. change value on env
-    `PORT, DB_URL and JWT_SECRET`
+  1.rename .env-example to .env
+
+  2.change value on env file
 
   example :
 
-    ```bash
-      PORT = 9000 
-    ```
+  ```bash
+    PORT = 9000
+  ```
 
-    ```bash
-      DB_URL = mongodb+srv://<userbane>:<password>@cluster0.8lcu8fs.mongodb.net/?retryWrites=true&w=majority
-    ```
+  ```bash
+    DB_URL = mongodb+srv://<userbane>:<password>@cluster0.8lcu8fs.mongodb.net/?retryWrites=true&w=majority
+  ```
 
-    ```bash 
-      JWT_SECRET = afgkldhdbnwu3gdh2639hfn2b 
-    ```
+  ```bash
+    JWT_SECRET = afgkldhdbnwu3gdh2639hfn2b
+  ```
