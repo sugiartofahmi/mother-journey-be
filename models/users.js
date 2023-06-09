@@ -15,13 +15,13 @@ const UserSchema = new mongoose.Schema({
     type: String,
     required: [true, "Please add a date born"],
   },
+  pregnancy: {
+    type: String,
+    required: [true, "Please add a pregnancy  age"],
+  },
   city: {
     type: String,
     required: [true, "Please add a city"],
-  },
-  born: {
-    type: String,
-    required: [true, "Please add a date born"],
   },
   email: {
     type: String,
